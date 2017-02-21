@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Profil</legend>
+            <div>
+                <label for="firsname">Nom</label>
+                <input id="firsname" type="text" name="firstname" value="" maxlength="3" required>
+            </div>
+
+            <div>
+                <label>Prénom</label>
+                <input type="text" name="lastname" value="">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Information de connexion</legend>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" value="" placeholder="john.doe@domain.tld">
+            </div>
+            <div>
+                <label>Mot de passe</label>
+                <input type="password" name="password" value="">
+            </div>
+        </fieldset>
+
+        <textarea name="commentaire"></textarea>
+
+        <div>
+            <input type="checkbox" name="conditions" value="true">
+            <label>Validez les conditions générales</label>
+        </div>
+        <div>
+            <input type="radio" name="choix" value="true" >
+            <label>Oui</label>
+        </div>
+        <div>
+            <input type="radio" name="choix" value="false" checked>
+            <label>non</label>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
